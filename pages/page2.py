@@ -35,7 +35,7 @@ with st.form('my_form'):
         pergunta = estilo.addTextArea(10, 'Pergunta sobre o Material:')
         botao = st.form_submit_button("Submit")
         if arquivo is not None:
-            texto = extract.ExtracaoPDF(arquivo)
+            texto = extract.ExtracaoDOC(arquivo)
             texto_tratado = extract.limpeza_Espacamento(texto)
             estilo.addBreakLine()
 
