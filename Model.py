@@ -3,10 +3,13 @@ from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 
 
 class QA_Model:
+
     
     def Model_Portuguese(self, contexto, questao):
-        model_name = 'pierreguillou/bert-large-cased-squad-v1.1-portuguese'
-        nlp = pipeline("question-answering", model=model_name)
+        tokenizer = AutoTokenizer.from_pretrained("eraldoluis/faquad-bert-base-portuguese-cased")
+        model = AutoModelForQuestionAnswering.from_pretrained("eraldoluis/faquad-bert-base-portuguese-cased")
+        
+        nlp = pipeline("question-answering", model=model, tokenizer=tokenizer)
 
         result = nlp(question=questao, context=contexto)
         return result
