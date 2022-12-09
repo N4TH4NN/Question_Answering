@@ -2,3 +2,4 @@ docx2txt==0.8
 pdfplumber==0.7.6
 streamlit==1.15.2
 transformers==4.25.1
+torch==1.8.0
