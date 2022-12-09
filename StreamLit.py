@@ -16,7 +16,7 @@ estilo = FunctionWidgets.IG()
 com.html(
 '''
 <html>
-    <img src="https://i.picasion.com/pic92/d3be6655a60be2eebffad0e5078662e5.gif" width="300" height="180" border="0">
+    <img src="https://i.picasion.com/pic92/ec38fbc4485444660f70ff9df37f0f35.gif" width="400" height="180" border="0"/>
 </html>  
 
 '''
