@@ -43,7 +43,7 @@ com.html(
 )
 
 estilo.addText('''
-1) Adicione um arquivo -PDF ou DOC - com material de Estudo ✔️
+1) Adicione o conteúdo com material de Estudo na área disponibilizada✔️
 2) Faça uma pergunta sobre o material escolhido ✔️
 3) ✨ Aguarde a resposta! ✨''')
 st.markdown("***")
